@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "nl.darioa/webdev",
+  "title": "darioa: websites, booking sites, webshops and web apps",
+  "description": "Fixed-price websites, booking sites, webshops and web apps: products, prices, work and contact.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.darioa.nl/",
+  "repository": {
+    "url": "https://github.com/riceharvest/darioa-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.darioa.nl/mcp"
+    }
+  ]
+}
